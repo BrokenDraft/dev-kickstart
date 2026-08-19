@@ -1,0 +1,18 @@
+bindsym XF86MonBrightnessDown exec brightnessctl -d intel_backlight s 10%-
+bindsym XF86MonBrightnessUp exec brightnessctl -d intel_backlight s 10%+
+
+
+# Display settings of the framework13
+output eDP-1 {
+	mode 2880x1920@120.000Hz
+	scale 2
+	allow_tearing no
+	adaptive_sync disabled
+	max_render_time off
+}
+
+input 2362:628:PIXA3854:00_093A:0274_Touchpad {
+	tap enabled
+	natural_scroll enabled
+	# accel_profile "flat" #disable mouse acceleration
+}

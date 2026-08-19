@@ -13,7 +13,7 @@ mkdir -p $LOCALBIN
 
 
 # Get base packages
-MYPACKAGES=("llvm" "llvm-devel" "clang" "git" "curl" "wget" "python3" "tar" "distrobox")
+MYPACKAGES=("brightnessctl" ""network-manager" "rfkill" ""llvm" "llvm-devel" "clang" "git" "curl" "wget" "python3" "tar" "distrobox")
 sudo apt install ${MYPACKAGES[@]} -y
 
 addline_profile() {
