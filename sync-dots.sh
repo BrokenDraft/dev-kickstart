@@ -1,5 +1,7 @@
 #!/bin/bash
 
-mkdir -p .config
+mkdir -p .config/sway
+mkdir -p .config/waybar
 
-cp -rf ~/.config/sway/* .config 
+cp -rf ~/.config/sway/* .config/sway
+cp -rf ~/.config/waybar/* .config/waybar
