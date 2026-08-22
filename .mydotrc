@@ -4,11 +4,12 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/.local/odin
 
 #-----------------------------
-export PATH=$PATH:~/.local/bin
 
 alias dbx='distrobox'
 alias dev='dbx enter dev-debian'
 alias vibe='vibe --continue'
+alias csway='nvim ~/.config/sway/config'
+alias myd='nvim ~/.mydotrc'
 
 #-----------------------------
 
