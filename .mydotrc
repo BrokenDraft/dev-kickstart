@@ -1,0 +1,18 @@
+#-----------------------------
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:~/.local/odin
+
+#-----------------------------
+export PATH=$PATH:~/.local/bin
+
+alias dbx='distrobox'
+alias dev='dbx enter dev-debian'
+alias vibe='vibe --continue'
+
+#-----------------------------
+
+if [ -n "$DISTROBOX_ENTER_PATH" ]; then
+    PS1='\[\e[38;5;219;1;2m\]$?\[\e[0m\]:\[\e[38;5;46m\]\u@\[\e[92m\]\h\[\e[0m\]:\[\e[96m\]\w\[\e[0m\]\$ '
+fi
+
