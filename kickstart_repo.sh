@@ -10,5 +10,4 @@ git clone ssh://git@codeberg.org/brokendraft/my-weird-dashboard.git
 git clone ssh://git@codeberg.org/brokendraft/brokendraft-lab-terraform.git
 git clone git@github.com:BrokenDraft/learning-odin.git
 git clone git@github.com:BrokenDraft/brokynvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-git clone git@github.com:BrokenDraft/dev-kickstart.git
 git clone git@github.com:BrokenDraft/screeps-templates.git
